@@ -69,6 +69,7 @@ export class BoxPage {
   }
 
 }
+```
 
 Run your project with and enjoy your 3D scenes:
 
