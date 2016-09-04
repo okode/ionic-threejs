@@ -7,13 +7,37 @@ This is a sample Ionic2 App with custom component based on Three.js.
 ![sphere-page.png](doc/sphere-page.png)
 ![cylinder-page.png](doc/cylinder-page.png)
 
+Install Node dependencies
+------------------------
+
+    $ npm install
+
 Running
 -------
 
-```
-$ npm install
-$ ionic serve
-```
+Local browser:
+
+    $ ionic serve
+
+iOS Emulator:
+
+    $ ionic run ios --emulator
+
+iOS Device:
+
+    $ ionic run ios --device
+
+Android Emulator:
+
+    $ ionic run android --emulator
+
+Android Device:
+
+    $ ionic run android --emulator
+
+Windows Phone Device (Windows 10):
+
+    $ ionic run windows --device -- --phone
 
 Create your own custom app
 --------------------------
