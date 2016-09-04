@@ -1,7 +1,11 @@
-Ionic Three.js Custom Component
+Ionic2 Three.js Custom Component
 ===============================
 
 This is a sample Ionic2 App with custom component based on Three.js.
+
+![box-page.png](doc/box-page.png)
+![sphere-page.png](doc/sphere-page.png)
+![cylinder-page.png](doc/cylinder-page.png)
 
 Running
 -------
