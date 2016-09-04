@@ -19,24 +19,21 @@ Local browser:
 
     $ ionic serve
 
-iOS Emulator:
+iOS:
 
+    $ ionic platform add ios
     $ ionic run ios --emulator
-
-iOS Device:
-
     $ ionic run ios --device
 
-Android Emulator:
+Android:
 
+    $ ionic platform add android
     $ ionic run android --emulator
-
-Android Device:
-
-    $ ionic run android --emulator
+    $ ionic run android --device
 
 Windows Phone Device (Windows 10):
 
+    $ ionic platform add windows
     $ ionic run windows --device -- --phone
 
 Create your own custom app
