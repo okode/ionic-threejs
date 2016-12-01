@@ -1,4 +1,4 @@
-import { ViewChild, Component, Input, ElementRef } from '@angular/core';
+import { Component, Input, ElementRef } from '@angular/core';
 import * as THREE from 'three';
 
 @Component({

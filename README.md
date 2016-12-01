@@ -45,8 +45,9 @@ Then, create a new App and add Three.js as a dependency:
 
 ```
 $ ionic start ionic-threejs --v2
+$ cd ionic-threejs
 $ npm install three --save
-$ typings install dt~three --save --global
+$ npm install @types/three --save
 ```
 
 Copy components/scenegraph folder to your components folder
@@ -66,21 +67,21 @@ Add <scenegraph> tag where you want to include the SceneGraph component:
 Modify your .ts file as the following:
 
 ```javascript
-import {ViewChild, Component} from '@angular/core';
-import {NavController} from 'ionic-angular';
-import {SceneGraph} from '../../components/scenegraph/scenegraph'
+import { ViewChild, Component } from '@angular/core';
+import { NavController } from 'ionic-angular';
+import { SceneGraph } from '../../components/scenegraph/scenegraph'
 
 @Component({
-  templateUrl: 'build/pages/box/box.html',
-  directives: [SceneGraph]
+  selector: 'page-home',
+  templateUrl: 'home.html'
 })
-export class BoxPage {
+export class HomePage {
 
   @ViewChild('scenegraph')
   sceneGraph: SceneGraph;
 
-  constructor(private navCtrl: NavController) {}
-    
+  constructor(public navCtrl: NavController) { }
+
   ionViewDidEnter() {
     this.sceneGraph.startAnimation();
   }
@@ -90,6 +91,18 @@ export class BoxPage {
   }
 
 }
+```
+
+Edit your app.module.ts adding `SceneGraph` component to your declarations section:
+
+```javascript
+import { SceneGraph } from '../components/scenegraph/scenegraph'
+
+@NgModule({
+
+  declarations: [ /* Other components*/ SceneGraph ]
+
+})
 ```
 
 Run your project with and enjoy your 3D scenes:
