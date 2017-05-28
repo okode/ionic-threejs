@@ -10,7 +10,7 @@ This is a sample Ionic2 App with custom component based on Three.js.
 Install Node dependencies
 ------------------------
 
-    $ npm install
+    $ yarn install
 
 Running
 -------
@@ -21,20 +21,13 @@ Local browser:
 
 iOS:
 
-    $ ionic platform add ios
-    $ ionic run ios --emulator
-    $ ionic run ios --device
+    $ cordova platform add ios --nofetch
+    $ ionic cordova emulate ios
 
 Android:
 
-    $ ionic platform add android
-    $ ionic run android --emulator
-    $ ionic run android --device
-
-Windows Phone Device (Windows 10):
-
-    $ ionic platform add windows
-    $ ionic run windows --device -- --phone
+    $ cordova platform add android --nofetch
+    $ ionic cordova emulate android
 
 Create your own custom app
 --------------------------
@@ -44,7 +37,7 @@ Ensure you have node, npm and ionic installed and updated.
 Then, create a new App and add Three.js as a dependency:
 
 ```
-$ ionic start ionic-threejs --v2
+$ ionic start ionic-threejs
 $ cd ionic-threejs
 $ npm install three --save
 $ npm install @types/three --save
