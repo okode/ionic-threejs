@@ -39,7 +39,8 @@
         "cordova-plugin-splashscreen": "4.0.3",
         "cordova-plugin-statusbar": "2.2.3",
         "cordova-plugin-whitelist": "1.3.2",
-        "ionic-plugin-keyboard": "2.2.1"
+        "ionic-plugin-keyboard": "2.2.1",
+        "cordova-plugin-wkwebview-engine": "https://github.com/driftyco/cordova-plugin-wkwebview-engine.git"
     },
     "devDependencies": {
         "@ionic/app-scripts": "1.3.7",
@@ -55,7 +56,8 @@
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-statusbar": {},
             "cordova-plugin-whitelist": {},
-            "ionic-plugin-keyboard": {}
+            "ionic-plugin-keyboard": {},
+            "cordova-plugin-wkwebview-engine": {}
         },
         "platforms": [
             "android",
