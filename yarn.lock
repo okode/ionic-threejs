@@ -44,17 +44,17 @@
   dependencies:
     tsickle "^0.21.0"
 
-"@ionic-native/core@3.11.0":
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-3.11.0.tgz#198c5b5fe6c4e6c130670f1df820b6f4e167b363"
+"@ionic-native/core@3.12.1":
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-3.12.1.tgz#5b7c7a4f5adfc8da0b9197e1843e5893acf66021"
 
-"@ionic-native/splash-screen@3.11.0":
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-3.11.0.tgz#7b16ad4c14f56b7bd6a94d2a6cd263ed397ad950"
+"@ionic-native/splash-screen@3.12.1":
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-3.12.1.tgz#1c2e468e225d5b90cad7b48fc05505d4c761ace6"
 
-"@ionic-native/status-bar@3.11.0":
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-3.11.0.tgz#d150302c23758e8fa5101296d7d2323e727a81c6"
+"@ionic-native/status-bar@3.12.1":
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-3.12.1.tgz#5b2491b43a3d7e08d65ac0e9fdb1927493e32472"
 
 "@ionic/app-scripts@1.3.7":
   version "1.3.7"
