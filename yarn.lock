@@ -139,16 +139,6 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/localforage/-/localforage-0.0.30.tgz#3d60a6bf6dda38e3f8a469611598379f1f649509"
 
-"@types/three@0.84.8":
-  version "0.84.8"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.84.8.tgz#418a123f90ebdf9210bff257efe024e31891b63d"
-  dependencies:
-    "@types/webvr-api" "*"
-
-"@types/webvr-api@*":
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/@types/webvr-api/-/webvr-api-0.0.31.tgz#f6061fe88a035d34a8b6a0c55f8758901ec8a08e"
-
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -3776,10 +3766,6 @@ tar@^2.0.0, tar@^2.2.1:
     fstream "^1.0.2"
     inherits "2"
 
-three@0.85.2:
-  version "0.85.2"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.85.2.tgz#8936f89c3668f7bf12f9b085ddf5dd409916ea27"
-
 through2@^0.6.2, through2@^0.6.5:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-0.6.5.tgz#41ab9c67b29d57209071410e1d7a7a968cd3ad48"
@@ -4116,6 +4102,10 @@ ws@1.1.1:
   dependencies:
     options ">=0.0.5"
     ultron "1.0.x"
+
+x3dom@1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/x3dom/-/x3dom-1.7.2.tgz#fb2552bbcf1e20748eb74824f9b80d82eb738521"
 
 xcode@^0.9.0:
   version "0.9.3"

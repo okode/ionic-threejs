@@ -5,5 +5,19 @@
 </ion-header>
 
 <ion-content>
-  <scenegraph geometry="box" #scenegraph></scenegraph>
+
+<X3D width='100vh' height='100vh'>
+  <Scene>
+    <Viewpoint zNear='0.0001' zFar='100'></Viewpoint>
+    <Transform>
+      <VolumeData id='volume' dimensions='4.0 4.0 4.0'>
+        <ImageTextureAtlas containerField='voxels' url='assets/aorta4096.png' numberOfSlices='96' slicesOverX='10' slicesOverY='10'></ImageTextureAtlas>
+        <OpacityMapVolumeStyle lightFactor='1.2' opacityFactor='6.0'>
+          <ImageTexture containerField='transferFunction' url='assets/transfer.png'></ImageTexture>
+        </OpacityMapVolumeStyle>
+      </VolumeData>
+    </Transform>
+  </Scene>
+</X3D>
+
 </ion-content>
